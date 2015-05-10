@@ -16,7 +16,7 @@ public class PVENovice extends Achievement implements IPlayerCustomEvent
 	@Override
 	public String getAchievementName()
 	{
-		return "PVE Novice";
+		return "PvE Novice";
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class PVENovice extends Achievement implements IPlayerCustomEvent
 	@Override
 	public int getAchievementID()
 	{
-		return Achievements.PVE_Novice.ordinal();
+		return Achievements.PVE_NOVICE.ordinal();
 	}
 
 	@Override
